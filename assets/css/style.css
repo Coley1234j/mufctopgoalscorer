@@ -127,12 +127,13 @@ h1, h2 {
 #right-about {
     padding-top: 30px;
     width: 33%;
-    float: right;
+    float: left;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
+    float: right;
 }
 
 hr {
@@ -176,22 +177,53 @@ hr {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: #ccc;
+    border-color: #505050;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+    float: right;
 }
 
 #circle-cover-bg {
-    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    background: url('../images/Wayne\ Rooney.png') no-repeat center;
     height: 100%;
     border-radius: 50%;
+    float: right;
 }
 
+#image-right {
+    max-width: 200px;
+    height: 200px;
+    padding: 0px 30px 30px 30px;
+    float: right;
+}
+
+#image-left {
+    max-width: 200px;
+    height: 200px;
+    padding: 0px 30px 30px 30px;
+    float: left;
+}
+
+#text-left-one {
+    text-align: left;
+    padding: 60px 30px 60px 30px;
+    
+}
+
+#text-right-one {
+    text-align: left;
+    padding: 60px 30px 60px 30px;
+}
+
+
+.text-right-one-heading {
+    
+}
 /* event times */
 
 #times {
-    background-image: url('../images/dublin-city.webp');
+    background-image: url('../images/old-trafford.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
