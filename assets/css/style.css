@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -13,10 +13,6 @@ body {
 }
 
 /* headings and logo */
-
-#nav-bar {
-    color: aqua;
-}
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -82,7 +78,7 @@ header {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.jpeg) no-repeat center center;
+    background: url(../images/mufc-hero-image.jpeg) no-repeat center center;
 
     /* annimtes zoom effect on loading page */
     animation-name: hero-zoom;
@@ -109,7 +105,7 @@ header {
     width: 400px;
     height: 100px;
 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
@@ -122,8 +118,12 @@ header {
 
 /* club ethos */
 
-#club-ethos {
-    height: 600px;
+#intro {
+    padding: 30px 30px 30px 30px;
+}
+
+#top-goalscorer-list {
+    padding-bottom: 30px;
 }
 
 #left-about {
@@ -202,14 +202,14 @@ hr {
 #image-right {
     max-width: 200px;
     height: 200px;
-    padding: 0px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
     float: right;
 }
 
 #image-left {
     max-width: 200px;
     height: 200px;
-    padding: 0px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
     float: left;
 }
 
@@ -224,9 +224,8 @@ hr {
     padding: 60px 30px 60px 30px;
 }
 
-
-.text-right-one-heading {
-    
+#apps {
+    font-weight: bold;
 }
 
 #goalscorer-one {
