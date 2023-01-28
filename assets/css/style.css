@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -283,6 +283,45 @@ footer {
     color: #3a3a3a;
 }
 
+/* About Us*/
+
+#about-cover-text {
+    font-size: 200%;
+    font-family: Oswald, sans-serif;
+    text-transform: upercase;
+    letter-spacing: 4px;
+
+    width: 350px;
+    height: 100px;
+
+    padding-top: 20px;
+    padding-left: 130px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 250px;
+    left: 500px;
+
+    position: absolute;
+}
+
+#about-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#about-cover-text, #about-cover-text h2 {
+    color: #fff;
+}
+
+#about-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/about-us.jpeg) no-repeat center center;
+}
 /* gallery */
 
 #photos {
