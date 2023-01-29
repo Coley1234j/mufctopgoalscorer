@@ -75,6 +75,16 @@ The imagery used in the website is important. The large, background hero images 
 - GitHub:
    - GitHub is used to store the projects code after being pushed from Git.
 
+# Testing
+
+## WC3 Validator  
+  
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.  
+- [W3C Markup Validator - Results](https://validator.w3.org/unicorn/check?ucn_uri=https%3A%2F%2Fcoley1234j.github.io%2Fmufctopgoalscorer%2F&ucn_lang=en&ucn_task=conformance#)
+- [W3C CSS Validator - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcoley1234j.github.io%2Fmufctopgoalscorer%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+
+
 ## Testing User Stories from User Experience (UX) Section  
 
 1. As a recurring or first time visitor, I want to easily find who Manchester United top goalscorers are.  
@@ -109,4 +119,4 @@ A large amount of testing was done to ensure that all pages were linking correct
    - On some mobile device. screens the footer on the about us page can become distorted or not appearing.
    - The footer social links are sending to 404 error page.
 
-   
+
