@@ -108,7 +108,7 @@ header {
     padding-top: 20px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(218, 41, 28, .7);
 
     bottom: 30px;
     right: 150px;
@@ -265,6 +265,7 @@ hr {
 
 footer {
     height: 150px;
+    overflow: hidden
 }
 
 .social-networks {
@@ -279,7 +280,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: rgba(218, 41, 28);
 }
 
 /* About Us*/
@@ -296,7 +297,7 @@ footer {
     padding-top: 20px;
     padding-left: 130px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(218, 41, 28, .7);
 
     bottom: 250px;
     left: 500px;
@@ -406,7 +407,7 @@ footer {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 450px;
     position: absolute;
     left: 10%;
     padding: 30px;
