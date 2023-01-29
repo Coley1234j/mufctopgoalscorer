@@ -99,7 +99,7 @@ header {
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
-    text-transform: upercase;
+    text-transform: uppercase;
     letter-spacing: 4px;
 
     width: 400px;
@@ -116,7 +116,7 @@ header {
     position: absolute;
 }
 
-/* club ethos */
+/* MUFC top goalscorer list */
 
 #intro {
     padding: 30px 30px 30px 30px;
@@ -126,52 +126,10 @@ header {
     padding-bottom: 30px;
 }
 
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    float: right;
-}
-
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     Margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.right-about-heading p {
-    text-align: right;
 }
 
 #welcome {
@@ -180,45 +138,26 @@ hr {
     font-size: 280%;
 }
 
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #505050;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-    float: right;
-}
-
-#circle-cover-bg {
-    background: url('../images/Wayne\ Rooney.png') no-repeat center;
-    height: 100%;
-    border-radius: 50%;
-    float: right;
-}
-
-#image-right {
+#image-right-one, #image-right-two, #image-right-three {
     max-width: 200px;
     height: 200px;
     padding: 30px 30px 30px 30px;
     float: right;
 }
 
-#image-left {
+#image-left-one, #image-left-two {
     max-width: 200px;
     height: 200px;
     padding: 30px 30px 30px 30px;
     float: left;
 }
 
-#text-left-one {
+#text-left-one, #text-left-two, #text-left-three {
     text-align: left;
     padding: 60px 30px 60px 30px;
 }
 
-#text-right-one {
+#text-right-one, #text-right-two {
     text-align: left;
     padding: 60px 30px 60px 30px;
 }
@@ -227,14 +166,15 @@ hr {
     font-weight: bold;
 }
 
-#goalscorer-one {
+#goalscorer-one, #goalscorer-three, #goalscorer-five {
     background-color: #f7f6f2;
 }
 
-#goalscorer-two{
+#goalscorer-two, #goalscorer-four {
     background-color: #fff;
 }
-/* event times */
+
+/* Fixture times and dates */
 
 #times {
     background-image: url('../images/old-trafford.webp');
@@ -288,7 +228,7 @@ footer {
 #about-cover-text {
     font-size: 200%;
     font-family: Oswald, sans-serif;
-    text-transform: upercase;
+    text-transform: uppercase;
     letter-spacing: 4px;
 
     width: 350px;
@@ -377,20 +317,6 @@ footer {
 #about-text-two {
     text-align: left;
     padding: 30px 30px 60px 0px;
-}
-
-
-/* gallery */
-
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-}
-
-#photos > img {
-    width: 100%;
 }
 
 /* Form Section */
@@ -524,7 +450,7 @@ footer {
         margin: 0 auto;
     }
 
-    #goalscorer-one, #goalscorer-two {
+    #goalscorer-one, #goalscorer-two, #goalscorer-three, #goalscorer-four, #goalscorer-five {
         width: 100%;
         float: left;
         padding: 0;
@@ -575,16 +501,16 @@ footer {
         margin: 0 auto;
     }
 
-    #goalscorer-one, #goalscorer-two {
+    #goalscorer-one, #goalscorer-two, #goalscorer-three #goalscorer-four, #goalscorer-five {
         width: inherit;
     }
 
-    #goalscorer-one > h2, #goalscorer-two > h2 {
+    #goalscorer-one > h2, #goalscorer-two > h2, #goalscorer-three > h2, #goalscorer-four > h2, #goalscorer-five > h2 {
         width: 100%;
         text-align: center;
     }
 
-    #goalscorer-one > p, #goalscorer-two > p {
+    #goalscorer-one > p, #goalscorer-two > p, #goalscorer-three > p, #goalscorer-four > p, #goalscorer-five > p {
         text-align: center;
         padding: 0 20px;
     }

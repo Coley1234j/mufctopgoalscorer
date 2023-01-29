@@ -1,4 +1,8 @@
 # MUFC Top Goalscorers  
+  Created to showcase the history of Manchester United FC on a website as a simple webside for avid fans to look up and discover their clubs history in particular those interested in the top goalscoring players in the clubs history. The website was made for educational purposes only.
+
+![MUFC Top Goalscorers](assets/images/website-preview.png)
+
 Created to showcase the history of Manchester United FC on a website as a simple webside for avid fans to look up and discover their clubs history in particular those interested in the top goalscoring players in the clubs history. The website was made for educational purposes only.
 
 This website is made up of the following sections:
@@ -102,4 +106,7 @@ A large amount of testing was done to ensure that all pages were linking correct
 
 
 ## Known Bugs
-   - On some mobile device. screens the footer on the about us page can become distorted or not appearing
+   - On some mobile device. screens the footer on the about us page can become distorted or not appearing.
+   - The footer social links are sending to 404 error page.
+
+   
