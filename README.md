@@ -33,8 +33,43 @@ The main colours used across the website are rgba(218, 41, 28,), white and grey.
 ### Typography  
   
 I used Google fonts 'Oswald' and 'Roboto' across the entire website, I felt 'Oswald' was a text that can be easily read and a text that seems to be standard across educational/historical websites. I used google fonts to help me decide on what text to use for the body of my website and that's where I found 'Roboto' which reads well alongside 'Oswald'. I also put Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
-Imagery
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+
+### Imagery
+
+The imagery used in the website is important. The large, background hero images across the site are designed to make the user feel like a fan. They include images of the Manchester United stadium, Old Trafford, and of fans in the the stadium allowing the user to feel part of the community of fans.
+
+## Wireframes 
+
+  ### Home Page
+  ![Home page](assets/images/home-Wireframe.jpeg)  
+
+  ### About Us Page
+  ![About Us](assets/images/about-wireframe.jpeg)  
+
+  ### Sign Up Page
+  ![Sign Up](assets/images/signup-wireframe.jpeg)  
+
+## Features  
+- Responsive on all device sizes
+
+- Interactive elements
+
+# Technologies Used
+
+## Languages Used
+   - HTML5
+   - CSS3
+
+## Frameworks, Libraries & Programs Used
+
+- Google Fonts:
+   - Google fonts were used to help import the Oswald and Roboto font into the style.css file which is used on all pages throughout the project.
+- Font Awesome:
+   - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+- Git
+   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- GitHub:
+   - GitHub is used to store the projects code after being pushed from Git.
 
 ## Testing User Stories from User Experience (UX) Section  
 
@@ -58,3 +93,13 @@ Imagery is important. The large, background hero image is designed to be strikin
    - Once here the user can choose from four different social platoform links to click to and to join the community.
    - These social links in the footer open in a new tab making sure that if a user clicks on one social media link they have not lost where they were on the website and thus the other social links to join.
 
+## Further Testing
+
+   - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+   - The website was viewed on a variety of devices such as Desktop, Laptop, & iPhone 8.
+A large amount of testing was done to ensure that all pages were linking correctly.
+   - Family members were asked to review the site on both mobile and laptops to point out any bugs or user experience issues they had.
+
+
+## Known Bugs
+   - On some mobile device. screens the footer on the about us page can become distorted or not appearing

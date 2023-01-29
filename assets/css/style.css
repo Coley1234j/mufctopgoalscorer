@@ -328,7 +328,7 @@ footer {
 }
 
 #about-one {
-    padding: 0px 60px 75px 150px;
+    padding: 0px 60px 120px 150px;
 }
 
 #about-one h2 {
@@ -518,33 +518,35 @@ footer {
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    #club-ethos {
-        width: 65px;
+    #top-goalscorer-list {
+        width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about, #right-about {
+    #goalscorer-one, #goalscorer-two {
         width: 100%;
         float: left;
         padding: 0;
     }
-    
-    #center-about {
-        clear: both;
+
+    #about {
         width: 100%;
         float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
         padding: 0;
     }
 
     hr {
         display: none;
     }
+
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -558,4 +560,50 @@ footer {
         line-height: 25px;
     }
 
+    #cover-text {
+        left: 0;
+    }
+
+    #about-cover-text {
+        left: 0;
+        bottom: 20%;
+    }
+   
+    #top-goalscorer-list {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #goalscorer-one, #goalscorer-two {
+        width: inherit;
+    }
+
+    #goalscorer-one > h2, #goalscorer-two > h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #goalscorer-one > p, #goalscorer-two > p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #about {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    #about-one > h2, #about-two > h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #about-one > p, #about-two > p {
+        width: 100%;
+        text-align: center;
+    }
+        
 }
