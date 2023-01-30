@@ -119,7 +119,11 @@ header {
 /* MUFC top goalscorer list */
 
 #intro {
-    padding: 30px 30px 30px 30px;
+    padding: 30px 150px 60px 150px;
+}
+
+#intro p {
+    font-size: 150%;
 }
 
 #top-goalscorer-list {
@@ -172,6 +176,13 @@ hr {
 
 #goalscorer-two, #goalscorer-four {
     background-color: #fff;
+}
+
+#fixtures {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+    padding-bottom: 40px;
 }
 
 /* Fixture times and dates */
@@ -450,6 +461,19 @@ footer {
         margin: 0 auto;
     }
 
+    #intro {
+        width: 80%;
+        float: left;
+        text-align: center;
+        padding: 30px 30px 30px 30px;
+    }
+
+    #fixtures {
+        clear: both;
+        text-align: center;
+        padding: 30px 30px 30px 30px;
+    }
+
     #goalscorer-one, #goalscorer-two, #goalscorer-three, #goalscorer-four, #goalscorer-five {
         width: 100%;
         float: left;
@@ -493,6 +517,12 @@ footer {
     #about-cover-text {
         left: 0;
         bottom: 20%;
+    }
+
+    #intro {
+        width: 90%;
+        height: 500px;
+        margin: 0 auto;
     }
    
     #top-goalscorer-list {
